@@ -1,0 +1,130 @@
+3/15/21
+Created a rudametary outline 
+1hr =1 hr total
+3/16/21
+Worked on the Ui some more, completed the first of many of the API calls that Will need
+to be made
+3 hrs = 4 total
+3/17/21
+Half way through the second part of the register UI to make it so that it will work
+the way that it should for the user
+<**TO-DO**>
+-Make exceptions for data for both parts of register
+to make sure information is valid
+-Write methods that check information like email to see if it is considerd valid
+-write encryption algo
+-connect both halfs of user data in UserData class
+-Create data type taking arguments of userCustom using lastName,firstName as key
+-as both halfs are made they should be written to a json file that has
+the info that hold them both. 
+-Create a Class that deals with writing to the file(would like to make this Statics)
+allowing to call whereev it needs.  
+3/18/21
+added the code to start storing the values for the username and the password into a hashtable
+3/24/21
+worked ~3-4 hours today
+got the api classes together
+am starting to put that information onto the dashboard that the user will be able to see
+still need to do the api calls for news, stocks, weather, and time
+Need to find a time library that I would be able to put on the dashboard. 
+3/29/21 2 hours
+Got News Api/ Covid Api working 
+-Next time: News api has 2 different fields rn which means 2 diff api calls and I need to store each api call in an array within the user
+Figure out if there is a possibility of having several api calls and for those, I need an arrayList holding the calls being made
+3/30/21 
+was able to get the data struct that I needed to get it to work.
+4/1/21 AM:~3 hours PM: hours 
+reconfigured the register window to be several windows
+added a dark Look and feel to the start program  as well as a customization window at the end
+Next time i Work on it:
+-Work on writing data to a singular jsonfile/ then reading that info in(Once I am able to display)#4
+-Need to add customization options which will varry depending on the amount of API calls that you will have#3
+-panels for the Api information (One for the large space/ one for the smaller space for each)(Default APIs will have its own small and large(compile all of them together))#3 
+-need to add the user option for look and feel, color preference(for text, accents?)#1
+-#1display the information that the user selects into a dashboard(small panels to start)
+4/13/21 2 hrs
+got most of the things done
+need to
+-Write the accounts to a json file
+-write code that reads username then read to see if the password correct
+-then load their profile which would be in its own json file
+-Make account that holds all of the information of all of the other users a singleton
+4/16/21 4 hours
+-Fixed issues with using covid info window
+-fixed bug that would make covid window print null whne you changed the state in the menu
+-Started working on seperating the final windows into seperate things
+-created files for saving using information
+4/17 - 4/19/21 9-10 hours
+-Worked on getting the small bug fixes in the different dashboards
+-Created Default User
+-got Covid dashboard and News Dashboard up and working
+Things that still need to be done:
+=stocks dashboard
+=Dashboard ControlPanel
+=Weather API Call
+=Time api:http://worldclockapi.com/api/json/est/now
+=login information
+
+In news ended up getting rid of :
+private void setButtons(String[] s){
+        
+        for(int i = 0; i<s.length; i++){
+            buttons[i].setText(s[i]);
+        }
+        if(s.length<buttons.length){
+            int remainder = buttons.length - s.length;
+            for(int i= buttons.length-1; i>buttons.length-remainder-1; i--){
+                buttons[i].setEnabled(false);
+                buttons[i].setVisible(false);
+            }
+        }
+    }
+    
+    //ArrayList<NewsConnection> news
+    private void setStories(JToggleButton btn){
+        if(btn.isSelected()){
+         this.updateButtons(btn);
+         String topic = btn.getText();
+         for(int i=0; i<news.size(); i++){
+             //news => list of news connections
+             if(news.get(i).getSection()==topic){
+                 for(int j =0; j<stories.length; i++){
+                     stories[j].setText(news.get(i).getStories().get(i).toString());
+                 }
+             }
+         }
+     }
+    }
+It was causing issues that I think could be avoided if I make the window hold all of the values
+4/20/21 -4/25 ~10-12 hours in this time frame
+-Added graphic parts for stocks window
+-Added Feature that makes a window pop up from news window
+-Added Feature in Control Panel that allows you to get back to start window, and ability to toggle the other windows
+
+features in work
+-add feature for the weather onto the dashboard control panel
+
+-getting Json File from user
+
+-making sure that everything fits in the window properly
+
+-Stocks Register Window add proper functions for the radio buttons - Done(later this day)
+	-making it so that changing the buttons update the watchlist accordingly
+
+Issues
+-Json file Reading not working kind of strange(could possibly change this so that that information is not saved unless wanted)
+	possible solutions: 
+		-make a list of default and made CustomUser profiles that you could load into on the main page that updates as you add diff users(could use a txt file to help out......)(seems to be the better thing to do)
+		-keep trying to do it with a json file
+
+4/25/21 afternoon 1hr
+-Need to go through all of hte code to find the parts that are not needed anymore and get rid of them
+4/28/21
+work roughly an hour
+- got loading the file to work( json files)
+- got rid of the add default stocks you either have them or not
+-Removed some files that were not needed
+	things to work on:
+	-Main page needs to look better
+	-check all of the stocks and make sure that they work with the api
+	-make sure that if the user puts in a bad stock symbol then it does not let them use it

@@ -1,0 +1,82 @@
+Apple
+AAPL
+Microsoft
+MSFT
+Amazon
+AMZN
+Alphabet Class A
+GOOGL
+Tesla
+TSLA
+Faceboo
+FB
+Alibaba
+BABA
+Berkshire Hathaway
+BRK.B
+Visa
+V
+Walmart
+WMT
+Johnson & Johnson
+JNJ
+SPDR S&P 500 ETF
+SPY
+Disney
+DIS
+Bank Of America
+BAC
+PayPal
+PYPL
+Nike
+NKE
+Intel
+INTC
+Netflix
+NFLX
+AT&T
+T
+Coca-Cola
+KO
+Vanguard Total Stock Market ETF
+VTI
+Pfizer
+PFE
+Exxon Mobil
+XOM
+Salesforce
+CRM
+Vanguard S&P 500 ETF
+VOO
+AstraZeneca
+AZN
+Sony
+SNE
+Boeing
+BA
+Starbucks
+SBUX
+AMD
+AMD
+Uber
+UBER
+GE
+GE
+Square
+SQ
+Zoom
+ZM
+Airbnb
+ABNB
+NIO
+NIO
+Snap
+SNAP
+GM
+GM
+Moderna
+MRNA
+Palantir Technologies
+PLTR
+GameStop
+GME

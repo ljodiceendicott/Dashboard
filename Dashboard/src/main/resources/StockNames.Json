@@ -1,0 +1,128 @@
+"data": [
+{
+  "name": "Apple",
+"symbol": "AAPL"
+},
+
+"name": "Microsoft",
+"symbol": "MSFT"
+},
+"name": "Amazon",
+"symbol": "AMZN"
+},
+"name": "Alphabet Class A",
+"symbol": "GOOGL"
+},
+"name": "Tesla",
+"symbol": "TSLA"
+},
+"name": "Facebook",
+"symbol": "FB"
+},
+"name": "Alibaba",
+"symbol": "BABA"
+},
+"name": "Berkshire Hathaway",
+"symbol": "BRK.B"
+},
+"name": "Visa",
+"symbol": "V"
+},
+"name": "Walmart",
+"symbol": "WMT"
+},
+"name": "Johnson & Johnson",
+"symbol": "JNJ"
+},
+"name": "SPDR S&P 500 ETF",
+"symbol": "SPY"
+},
+"name": "Disney",
+"symbol": "DIS"
+},
+"name": "Bank Of America",
+"symbol": "BAC"
+},
+"name": "PayPal",
+"symbol": "PYPL"
+},
+"name": "Nike",
+"symbol": "NKE"
+},
+"name": "Intel",
+"symbol": "INTC"
+},
+"name": "Netflix",
+"symbol": "NFLX"
+},
+"name": "AT&T",
+"symbol": "T"
+},
+"name": "Coca-Cola",
+"symbol": "KO"
+},
+"name": "Vanguard Total Stock Market ETF",
+"symbol": "VTI"
+},
+"name": "Pfizer",
+"symbol": "PFE"
+},
+"name": "Exxon Mobil",
+"symbol": "XOM"
+},
+"name": "Salesforce",
+"symbol": "CRM"
+},
+"name": "Vanguard S&P 500 ETF",
+"symbol": "VOO"
+},
+"name": "AstraZeneca",
+"symbol": "AZN"
+},
+"name": "Sony",
+"symbol": "SNE"
+},
+"name": "Boeing",
+"symbol": "BA"
+},
+"name": "Starbucks",
+"symbol": "SBUX"
+},
+"name": "AMD",
+"symbol": "AMD"
+},
+"name": "Uber",
+"symbol": "UBER"
+},
+"name": "GE",
+"symbol": "GE"
+},
+"name": "Square",
+"symbol": "SQ"
+},
+"name": "Zoom",
+"symbol": "ZM"
+},
+"name": "Airbnb",
+"symbol": "ABNB"
+},
+"name": "NIO",
+"symbol": "NIO"
+},
+"name": "Snap",
+"symbol": "SNAP"
+},
+"name": "GM",
+"symbol": "GM"
+"name": "Moderna",
+},
+"symbol": "MRNA"
+},
+"name": "Palantir Technologies",
+"symbol": "PLTR"
+},
+{
+"name": "GameStop",
+"symbol": "GME"
+}
+]
